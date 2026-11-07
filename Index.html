@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Truewell | Commercial Cleaning for Offices, Medical and Industrial Facilities</title>
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&amp;family=Playfair+Display:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F6F1E7;color:#1B2620;font-family:'Montserrat','Helvetica Neue',Arial,sans-serif;font-size:17px;line-height:1.7}
+a{color:#1F3D2B;text-decoration:none}a:hover{color:#142A1D}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid #B49B6A;outline-offset:3px}
+.wrap{max-width:1200px;margin:0 auto;padding:0 40px;box-sizing:border-box}
+.sec{padding:120px 0}
+.eyebrow{font-size:12px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:#5E6B61;margin:0 0 20px}
+.eyebrow.brass{color:#B49B6A}
+h1,h2,h3{font-family:'Playfair Display',Georgia,serif;font-weight:400;letter-spacing:-0.01em;margin:0}
+h1{font-size:64px;line-height:1.1}
+h2{font-size:42px;line-height:1.2}
+h3{font-size:24px;line-height:1.3}
+.rule{height:1px;background:rgba(180,155,106,0.4);border:0;margin:0}
+.btn{display:inline-block;font-size:12px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;padding:18px 30px;border-radius:2px;border:2px solid #1F3D2B;background:#1F3D2B;color:#F6F1E7}
+.btn:hover{background:#142A1D;border-color:#142A1D;color:#F6F1E7}
+.btn.ghost{background:transparent;color:#1F3D2B}
+.btn.ghost:hover{background:#1F3D2B;color:#F6F1E7}
+.link{font-size:12px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:#1F3D2B;border-bottom:1px solid #B49B6A;padding-bottom:4px}
+.muted{color:#5E6B61}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:40px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start}
+.item{border-top:1px solid #B49B6A;padding-top:28px}
+.ph{background:#EFE8D9;border:1px dashed rgba(94,107,97,0.5);color:#5E6B61;font-size:13px;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;box-sizing:border-box}
+.field{display:flex;flex-direction:column;gap:8px;margin-bottom:22px}
+.field label{font-size:12px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:#1B2620}
+.field input,.field select,.field textarea{font:inherit;font-size:16px;padding:12px 14px;border:1px solid rgba(94,107,97,0.5);border-radius:2px;background:#F6F1E7;color:#1B2620;box-sizing:border-box;width:100%}
+.req{color:#5E6B61;font-weight:400;letter-spacing:0;text-transform:none}
+.tbl-row{display:grid;grid-template-columns:320px 1fr;gap:40px;padding:26px 0;border-top:1px solid rgba(180,155,106,0.4)}
+.step-n{font-family:'Playfair Display',Georgia,serif;font-size:48px;color:#B49B6A;line-height:1}
+.nav-links a{font-size:12px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:#1B2620;margin-left:32px}
+.nav-links a:hover{color:#1F3D2B}
+@media (max-width:1199px){
+.grid4{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:767px){
+h1{font-size:40px}h2{font-size:30px}h3{font-size:21px}
+body{font-size:16px}
+.sec{padding:72px 0}
+.wrap{padding:0 24px}
+.grid4{grid-template-columns:1fr;gap:32px}
+.split{grid-template-columns:1fr;gap:48px}
+.hero-img{order:2}
+.tbl-row{grid-template-columns:1fr;gap:10px}
+.nav-links{display:none}
+.nav-cta{display:block}
+}
+</style>
+</helmet>
+
+<header style="position:sticky;top:0;z-index:5;background:#F6F1E7;border-bottom:1px solid rgba(180,155,106,0.4)">
+<div class="wrap" style="display:flex;align-items:center;justify-content:space-between;height:84px">
+<a href="#top" style="font-family:'Playfair Display',Georgia,serif;font-size:26px;color:#1F3D2B;display:inline-flex;flex-direction:column;line-height:1.1">Truewell<span style="display:block;height:1px;width:100%;background:#B49B6A;margin-top:4px"></span></a>
+<nav class="nav-links" style="display:flex;align-items:center">
+<a href="#sectors">Sectors</a><a href="#approach">Approach</a><a href="#services">Services</a><a href="#contact">Contact</a>
+</nav>
+<a class="btn" href="#contact" style="padding:14px 22px">Request a quote</a>
+</div>
+</header>
+
+<section id="top" class="sec" style="padding-top:110px">
+<div class="wrap split" style="align-items:center">
+<div>
+<p class="eyebrow">Commercial cleaning</p>
+<h1>Spaces that reflect the standard of your business.</h1>
+<p class="muted" style="font-size:18px;max-width:560px;margin:28px 0 40px">Truewell delivers dependable, meticulous commercial cleaning for offices, medical facilities, industrial sites and commercial properties, built on long-term partnerships and consistent results.</p>
+<div style="display:flex;gap:28px;align-items:center;flex-wrap:wrap">
+<a class="btn" href="#contact">Request a quote</a>
+<a class="link" href="#sectors">Explore our sectors →</a>
+</div>
+</div>
+<img class="hero-img" src="./assets/a61f315fff4df51b8147859eb0b060d3.jpg" alt="Clean, bright lobby with a polished floor and a yellow janitorial cart beside floor-to-ceiling glass" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:4/5;max-height:620px;object-fit:cover;object-position:right center">
+</div>
+</section>
+
+<hr class="rule">
+
+<section class="sec" style="padding-top:120px">
+<div class="wrap" style="max-width:720px;text-align:center">
+<h2 style="font-size:36px;line-height:1.3">A clean environment is not a detail. It shapes how your clients see you, how your people work, and how your business is protected.</h2>
+<p class="muted" style="margin:36px auto 0;max-width:600px">Truewell partners with organizations that need more than a service provider. We bring structured processes, trained teams and clear accountability to every site, so cleanliness becomes one less thing you have to think about.</p>
+</div>
+</section>
+
+<section id="sectors" class="sec" style="background:#EFE8D9">
+<div class="wrap">
+<p class="eyebrow">Sectors</p>
+<h2 style="max-width:680px;margin-bottom:64px">Specialist cleaning for the environments that matter most.</h2>
+<div class="grid4">
+<div class="item"><p class="step-n" style="font-size:20px;margin:0 0 14px">01</p><h3 style="margin-bottom:14px">Offices</h3><p class="muted" style="margin:0;font-size:15px">Daily and periodic cleaning for corporate offices and shared workspaces, creating polished, healthy environments for staff and visitors.</p></div>
+<div class="item"><p class="step-n" style="font-size:20px;margin:0 0 14px">02</p><h3 style="margin-bottom:14px">Medical Facilities</h3><p class="muted" style="margin:0;font-size:15px">Meticulous, protocol-driven cleaning for clinics, practices and healthcare settings, with careful attention to hygiene-critical areas.</p></div>
+<div class="item"><p class="step-n" style="font-size:20px;margin:0 0 14px">03</p><h3 style="margin-bottom:14px">Industrial Facilities</h3><p class="muted" style="margin:0;font-size:15px">Reliable cleaning for warehouses, plants and production sites, scaled to the demands of large, high-activity operations.</p></div>
+<div class="item"><p class="step-n" style="font-size:20px;margin:0 0 14px">04</p><h3 style="margin-bottom:14px">Commercial Properties</h3><p class="muted" style="margin:0;font-size:15px">Consistent presentation for retail, hospitality, education and mixed-use properties, tailored to how each space is used.</p></div>
+</div>
+</div>
+</section>
+
+<section class="sec" style="background:#1F3D2B;color:#F6F1E7">
+<div class="wrap split">
+<div>
+<p class="eyebrow brass">Why Truewell</p>
+<h2 style="color:#F6F1E7">A partner for the long term.</h2>
+<img src="./assets/5131e2b653a4f51c893cec19f1cac427.jpg" alt="Close view of a cleaning technician mopping a clean, blue vinyl hallway floor" style="display:block;width:100%;max-width:520px;height:auto;aspect-ratio:3/2;object-fit:cover;margin-top:48px">
+</div>
+<div>
+<div style="border-top:1px solid #B49B6A;padding:28px 0"><h3 style="color:#F6F1E7;margin-bottom:10px">Built for long-term contracts</h3><p style="margin:0;opacity:0.92;font-size:16px">We invest in understanding your site, your schedule and your standards, then deliver the same quality month after month.</p></div>
+<div style="border-top:1px solid #B49B6A;padding:28px 0"><h3 style="color:#F6F1E7;margin-bottom:10px">Trained, vetted teams</h3><p style="margin:0;opacity:0.92;font-size:16px">Our people are carefully selected, properly trained and supported by experienced supervisors.</p></div>
+<div style="border-top:1px solid #B49B6A;padding:28px 0"><h3 style="color:#F6F1E7;margin-bottom:10px">Clear accountability</h3><p style="margin:0;opacity:0.92;font-size:16px">Defined scopes, regular inspections and a single point of contact keep communication simple and standards visible.</p></div>
+<div style="border-top:1px solid #B49B6A;border-bottom:1px solid #B49B6A;padding:28px 0"><h3 style="color:#F6F1E7;margin-bottom:10px">Tailored to your site</h3><p style="margin:0;opacity:0.92;font-size:16px">Every facility is different. Our cleaning programs are designed around your space, your sector and your requirements.</p></div>
+</div>
+</div>
+</section>
+
+<section id="approach" class="sec">
+<div class="wrap">
+<p class="eyebrow">Our approach</p>
+<h2 style="max-width:680px;margin-bottom:72px">Simple, structured, dependable.</h2>
+<div class="grid4">
+<div><p class="step-n" style="margin-bottom:20px">1</p><h3 style="margin-bottom:12px">Consultation</h3><p class="muted" style="margin:0;font-size:15px">We visit your site, listen to your needs and understand how the space is used.</p></div>
+<div><p class="step-n" style="margin-bottom:20px">2</p><h3 style="margin-bottom:12px">Tailored proposal</h3><p class="muted" style="margin:0;font-size:15px">You receive a clear scope, schedule and pricing, with no ambiguity.</p></div>
+<div><p class="step-n" style="margin-bottom:20px">3</p><h3 style="margin-bottom:12px">Seamless onboarding</h3><p class="muted" style="margin:0;font-size:15px">We introduce your dedicated team and put processes in place with minimal disruption.</p></div>
+<div><p class="step-n" style="margin-bottom:20px">4</p><h3 style="margin-bottom:12px">Ongoing assurance</h3><p class="muted" style="margin:0;font-size:15px">Regular quality checks and open communication keep standards high over the life of the contract.</p></div>
+</div>
+</div>
+</section>
+
+<section id="services" class="sec" style="background:#EFE8D9;padding:96px 0">
+<div class="wrap">
+<p class="eyebrow">Also from Truewell</p>
+<h2 style="max-width:680px;margin-bottom:48px;font-size:34px">Further services, delivered to the same standard.</h2>
+<div class="tbl-row"><h3 style="font-size:20px">Property Management Cleaning</h3><p class="muted" style="margin:0;font-size:15px">Ongoing cleaning for common areas, lobbies and shared facilities across residential and commercial buildings.</p></div>
+<div class="tbl-row"><h3 style="font-size:20px">Post-Construction Cleaning</h3><p class="muted" style="margin:0;font-size:15px">Detailed final cleaning that prepares newly built or renovated spaces for handover and occupancy.</p></div>
+<div class="tbl-row"><h3 style="font-size:20px">Residential Cleaning</h3><p class="muted" style="margin:0;font-size:15px">Careful, reliable home cleaning for clients who value the same attention to detail.</p></div>
+<div style="border-top:1px solid rgba(180,155,106,0.4);padding-top:26px"><a class="link" href="#contact">Discuss your requirements →</a></div>
+</div>
+</section>
+
+<section id="contact" class="sec">
+<div class="wrap split">
+<div>
+<p class="eyebrow">Get in touch</p>
+<h2 style="margin-bottom:28px">Let's discuss your facility.</h2>
+<p class="muted" style="max-width:480px">Tell us about your space and we will prepare a tailored proposal. Commercial enquiries receive a response within one business day.</p>
+<div style="margin-top:44px;border-top:1px solid rgba(180,155,106,0.4)">
+<p style="margin:0;padding:16px 0;border-bottom:1px solid rgba(180,155,106,0.4)"><span class="eyebrow" style="margin:0;display:inline-block;width:120px">Phone</span>[phone number]</p>
+<p style="margin:0;padding:16px 0;border-bottom:1px solid rgba(180,155,106,0.4)"><span class="eyebrow" style="margin:0;display:inline-block;width:120px">Email</span>[email address]</p>
+<p style="margin:0;padding:16px 0;border-bottom:1px solid rgba(180,155,106,0.4)"><span class="eyebrow" style="margin:0;display:inline-block;width:120px">Service area</span>[city / region]</p>
+</div>
+</div>
+<form style="background:#F6F1E7;border:1px solid rgba(180,155,106,0.4);padding:48px;box-sizing:border-box">
+<div class="field"><label for="n">Full name <span class="req">required</span></label><input id="n" type="text"></div>
+<div class="field"><label for="c">Company <span class="req">required</span></label><input id="c" type="text"></div>
+<div class="field"><label for="e">Email <span class="req">required</span></label><input id="e" type="email"></div>
+<div class="field"><label for="p">Phone</label><input id="p" type="tel"></div>
+<div class="field"><label for="t">Type of facility <span class="req">required</span></label><select id="t"><option>Office</option><option>Medical facility</option><option>Industrial facility</option><option>Commercial property</option><option>Property management</option><option>Post-construction</option><option>Residential</option></select></div>
+<div class="field"><label for="s">Approximate size (sq ft / sq m)</label><input id="s" type="text"></div>
+<div class="field"><label for="f">Cleaning frequency</label><select id="f"><option>Daily</option><option>Several times weekly</option><option>Weekly</option><option>One-off</option></select></div>
+<div class="field"><label for="m">Message</label><textarea id="m" rows="4"></textarea></div>
+<button type="button" class="btn" style="width:100%">Request a quote</button>
+<p class="muted" style="font-size:13px;margin:18px 0 0;text-align:center">We respect your privacy and will only use your details to respond to your enquiry.</p>
+</form>
+</div>
+</section>
+
+<footer style="background:#142A1D;color:#F6F1E7;border-top:1px solid #B49B6A;padding:80px 0 32px">
+<div class="wrap">
+<div class="grid4" style="grid-template-columns:1.4fr 1fr 1fr 1fr;gap:48px">
+<div><p style="font-family:'Playfair Display',Georgia,serif;font-size:26px;margin:0 0 10px">Truewell</p><p style="margin:0;opacity:0.85;font-size:15px"><em>Commercial cleaning, done with care.</em></p></div>
+<div><p class="eyebrow brass" style="margin-bottom:14px">Sectors</p><p style="margin:0;font-size:15px;line-height:2">Offices<br>Medical<br>Industrial<br>Commercial</p></div>
+<div><p class="eyebrow brass" style="margin-bottom:14px">Services</p><p style="margin:0;font-size:15px;line-height:2">Property Management<br>Post-Construction<br>Residential</p></div>
+<div><p class="eyebrow brass" style="margin-bottom:14px">Contact</p><p style="margin:0;font-size:15px;line-height:2">[phone number]<br>[email address]<br>[city / region]</p></div>
+</div>
+<div style="border-top:1px solid rgba(180,155,106,0.4);margin-top:64px;padding-top:24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;font-size:13px;opacity:0.85">
+<span>© 2026 Truewell. All rights reserved.</span>
+<span><a href="#" style="color:#F6F1E7">Privacy Policy</a> &nbsp;·&nbsp; <a href="#" style="color:#F6F1E7">Terms</a></span>
+</div>
+</div>
+</footer>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":4300}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>
